@@ -9,4 +9,4 @@ module.exports = new ImageKit({
     publicKey: PUBLICKEY,
     privateKey: PRIVATEKEY,
     urlEndpoint: URLENDPOINT
-});
+})
