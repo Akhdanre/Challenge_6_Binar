@@ -12,3 +12,11 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Images {
+  id          Int     @id @default(autoincrement())
+  title       String  @db.VarChar(100)
+  description String  @db.VarChar(100)
+  image_id    String  @db.VarChar(100)
+  url         String  @db.VarChar(100)
+}
